@@ -12,7 +12,7 @@ public class Demo {
 		WebDriver driver = new ChromeDriver ();
 		driver.get("http:/www.gmail.com/");
 		driver.manage().window().maximize();
-		driver.findElement(By.id("identifierId")).sendKeys("ob@covizmo.com");
+		driver.findElement(By.id("identifierId")).sendKeys("im@covizmo.com");
 		driver.findElement(By.className("qhFLie")).click();
 		String at = driver.getTitle();
 		String et = "gmail";
