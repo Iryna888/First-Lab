@@ -23,7 +23,7 @@ public class Demo {
 		}
 		else
 		{
-			System.out.println("Test Failure");
+			System.out.println("Test Failure for lab 1");
 		}
 	}
 
